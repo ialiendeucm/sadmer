@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pruebas y Tratamientos en Regresión Lineal Múltiple</title>
+</head>
+<body>
+    <header>
+        <h1>Pruebas y Tratamientos en Regresión Lineal Múltiple</h1>
+    </header>
+
+    <section>
+        <h2>Pruebas Estadísticas</h2>
+        <p>Las siguientes pruebas son comunes en regresión lineal múltiple:</p>
+        <ul>
+            <li>Prueba de significancia global del modelo</li>
+            <li>Pruebas de significancia individual de los coeficientes</li>
+            <li>Prueba de normalidad de residuos</li>
+            <!-- Agrega más pruebas según sea necesario -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tratamientos y Mejoras</h2>
+        <p>Algunos tratamientos para abordar problemas en la regresión lineal múltiple:</p>
+        <ul>
+            <li>Transformación de variables</li>
+            <li>Detección y manejo de valores atípicos</li>
+            <li>Colinealidad: uso de variables dummy</li>
+            <!-- Agrega más tratamientos según sea necesario -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pruebas y Tratamientos en Regresión Lineal Múltiple</p>
+    </footer>
+</body>
+</html>
