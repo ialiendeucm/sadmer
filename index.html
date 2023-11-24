@@ -4,37 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Pruebas y Tratamientos en Regresión Lineal Múltiple</title>
+    <title>Problemas y Soluciones en Regresión Lineal Múltiple</title>
 </head>
 <body>
     <header>
-        <h1>Pruebas y Tratamientos en Regresión Lineal Múltiple</h1>
+        <h1>Problemas y Soluciones en Regresión Lineal Múltiple</h1>
     </header>
 
     <section>
-        <h2>Pruebas Estadísticas</h2>
-        <p>Las siguientes pruebas son comunes en regresión lineal múltiple:</p>
+        <h2>Elige un Problema</h2>
+        <p>Selecciona un problema que pueda afectar la validez de tu modelo:</p>
         <ul>
-            <li>Prueba de significancia global del modelo</li>
-            <li>Pruebas de significancia individual de los coeficientes</li>
-            <li>Prueba de normalidad de residuos</li>
-            <!-- Agrega más pruebas según sea necesario -->
+            <li><a href="#heterocedasticidad">Heterocedasticidad</a></li>
+            <li><a href="#endogeneidad">Endogeneidad</a></li>
+            <li><a href="#autocorrelacion">Autocorrelación</a></li>
+            <li><a href="#multicolinealidad">Multicolinealidad</a></li>
         </ul>
     </section>
 
-    <section>
-        <h2>Tratamientos y Mejoras</h2>
-        <p>Algunos tratamientos para abordar problemas en la regresión lineal múltiple:</p>
-        <ul>
-            <li>Transformación de variables</li>
-            <li>Detección y manejo de valores atípicos</li>
-            <li>Colinealidad: uso de variables dummy</li>
-            <!-- Agrega más tratamientos según sea necesario -->
-        </ul>
+    <section id="heterocedasticidad">
+        <h2>Heterocedasticidad</h2>
+        <p>Posibles pruebas, tratamientos y paquetes R:</p>
+        <table>
+            <tr>
+                <th>Pruebas</th>
+                <th>Tratamientos</th>
+                <th>Paquetes R</th>
+            </tr>
+            <tr>
+                <td>Gráfico de residuos</td>
+                <td>Inclusión de nuevas variables explicativas</td>
+                <td>'lmtest'</td>
+            </tr>
+            <tr>
+                <td>Contraste de White</td>
+                <td>Mínimos cuadrados ponderados</td>
+                <td>'sandwich'</td>
+            </tr>
+            <tr>
+                <td>Contraste Breusch-Pagan</td>
+                <td>Transformación logarítmica</td>
+                <td>'car'</td>
+            </tr>
+        </table>
     </section>
+
+    <!-- Repite la estructura para otros problemas -->
 
     <footer>
-        <p>&copy; 2023 Pruebas y Tratamientos en Regresión Lineal Múltiple</p>
+        <p>&copy; 2023 Problemas y Soluciones en Regresión Lineal Múltiple</p>
     </footer>
 </body>
 </html>
